@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>STAGET</title>
+
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                
+                <a href="#" class="nav__logo"  style=" color:#8041f5ab;">STAGET</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#share" class="nav__link">About us</a></li>
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">contact</a></li>
+                        <li class="nav__item"><a href="login.php" id="myButton" class="button" style=" background-color:#8041f5ab;">Login</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/home2.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">get your internship</h1>
+                        <p class="home__description">STAGET, has been specifically designed to streamline the internship application process for students</p>
+                        <a href="signup.php" class="button" id="myButton3" style=" background-color:#8041f5ab;" >Get Started</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SHARE ==========-->
+            <section class="share section bd-container" id="share">
+                
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <br><br>
+                        <h2 class="section-title-center">about our application <br>STAGET</h2>
+                        <p class="share__description">we understand the challenges that students face when seeking out internships. That's why we've developed a platform that makes it easy to search for and apply to internships in your field of study. Our user-friendly interface and intuitive design ensure that you can quickly and easily navigate the application process.</p>
+                        <a href="#" class="button">learn more</a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="assets/img/17.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="section-title">Here's Some Of Our <br>Features</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="assets/img/apply.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Apply to internships directly through STAGET</h3>
+                        <a href="#" class="button button-link">Learn more</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/loop3.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Manage your internships and track your progress</h3>
+                        <a href="#" class="button button-link">Learn more</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/img/track.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Provide internship's feedback and evaluation</h3>
+                        <a href="#" class="button button-link">Learn more</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            <section class="accessory section bd-container" id="accessory">
+            
+                    <div class="send__container bd-container bd-grid">
+                        <div class="send__content">
+                            <h2 class="section-title-center send__title">Contact us</h2>
+                            <p class="send__description">Reach out to us today
+                                via any of the given
+                                information.</p>
+                            <form action="contact.php" method="post">
+                                <div class="send__direction">
+                                    <input type="text" placeholder="email" class="send__input" required name="email">
+                                </div><br>
+                                <div class="send__direction">
+                                    <input type="text" placeholder="subject" class="send__input" name="subject">
+                                </div><br>
+                                <div class="send__direction">
+                                <input type="text" placeholder="message" class="send__input" name="msg" required>
+                                <button type="submit" class="button" style="border: none;">Send</button>
+                                <!-- <input type="submit" value="Send" class="button"> -->
+                            </div>
+                            </form>
+                        </div>
+    
+                        <div class="send__img">
+                            <img src="assets/img/send3.png" alt="">
+                        </div>
+                    </div>
+            </section>
+
+     
+   
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">STAGET</a>
+                    </h3>
+                    <p class="footer__description">get your internship<br> online</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Streamlined App</a></li>
+                        <li><a href="#" class="footer__link">online applying</a></li>
+                        <li><a href="#" class="footer__link">Tracking & Evaluation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About us</a></li>
+                        <li><a href="#" class="footer__link">Our offers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="https://www.facebook.com/hadjer.bgt/" class="footer__social" target="_blank"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="https://twitter.com/projects_code" class="footer__social" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.instagram.com/hadjer_bgt/" class="footer__social" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">copyright &copy; 2023 | Staget made with ❤️ by girls team | all right reserved.</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
